@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
+import { HeroSectionComponent } from '../hero-section/hero-section.component';
+import { SkillsComponent } from '../skills/skills.component';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, HeroSectionComponent, SkillsComponent],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })
