@@ -2,7 +2,7 @@ h2 {
     color: #fff;
 }
 
-h3{
+h3 {
     font-size: 1.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -10,10 +10,36 @@ h3{
 .list {
     display: flex;
     gap: 5px;
+    margin-top: 5px;
+    font-size: 1.2rem;
     color: #0000ff;
 }
 
-.list li {
-    margin-top: 5px;
-    font-size: 1.2rem;
+@media screen and (max-width: 475px) {
+
+    .card {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        width: 80%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+
+    .code-btn {
+        margin-top: 10px;
+        margin-left: 2em;
+    }
+
+    .list {
+        width: 80%;
+        text-align: justify;
+        font-size: 17px;
+    }
 }
