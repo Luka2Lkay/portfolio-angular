@@ -11,7 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
   contactForm: FormGroup = new FormGroup({
-    name: new FormControl(''),
+    senderName: new FormControl(''),
     email: new FormControl(''),
     subject: new FormControl(''),
     message: new FormControl(''),
