@@ -3,7 +3,17 @@
     color: greenyellow;
 }
 
+.title {
+    margin: 1.5em;
+}
+
 p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 475px) {
+    .title {
+        font-size: 1.5em;
+    }
 }
