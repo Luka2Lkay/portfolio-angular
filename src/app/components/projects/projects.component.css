@@ -29,12 +29,15 @@ h3 {
     p {
         width: 80%;
         margin: 0 auto;
-        /* text-align: center; */
     }
 
     .code-btn {
         margin-top: 10px;
         margin-left: 2em;
+    }
+
+    h2 {
+        font-size: 2em;
     }
 
     .list {
