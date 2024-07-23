@@ -1,5 +1,5 @@
 export interface Email {
-  name: string,
+  senderName: string,
   email: string,
   subject: string,
   message: string
