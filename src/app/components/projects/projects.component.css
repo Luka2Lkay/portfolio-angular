@@ -37,14 +37,9 @@ h3 {
         /* margin-left: 2em; */
     }
 
-    h2 {
-        font-size: 2em;
-    }
-
     .list {
         display: flex;
         flex-direction: column;
-        /* text-align: justify; */
         font-size: 15px; 
     }
 }

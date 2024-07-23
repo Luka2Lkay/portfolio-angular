@@ -1,0 +1,19 @@
+label{
+    font-size: 17px;
+    color: #fff;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 475px) {
+    form{
+        width: 80%;
+    }
+}
