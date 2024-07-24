@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 h2{
-    font-size: 4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
     text-align: center;
 }
 

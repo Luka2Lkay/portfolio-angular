@@ -8,6 +8,13 @@ form {
     margin: 0 auto;
 }
 
+#toast-simple {
+    position: fixed;
+    top: 5em;
+    right: 0
+
+}
+
 button {
     font-size: 17px;
 }
