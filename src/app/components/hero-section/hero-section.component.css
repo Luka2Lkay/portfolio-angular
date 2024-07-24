@@ -17,3 +17,20 @@ p{
         font-size: 1.5em;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 1.2em;
+    }
+
+    .typing {
+        font-size: 1rem;
+        color: greenyellow;
+    }
+
+    p{
+        font-size: 1em;
+        word-break: break-all;
+        text-align: justify;
+    }
+}
