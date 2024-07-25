@@ -1,7 +1,4 @@
 @media screen and (max-width: 475px) {
-    .indicators {
-        border: 1px solid red;
-    }
 
     img{
         width: 5em;
