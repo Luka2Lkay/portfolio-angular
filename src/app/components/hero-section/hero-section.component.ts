@@ -23,4 +23,8 @@ export class HeroSectionComponent implements AfterViewInit{
   private hand: string = '&#128075;'
   private smile:string = '&#128526;'
 
+  scroll() : void {
+    window.scrollTo
+  }
+
 }
