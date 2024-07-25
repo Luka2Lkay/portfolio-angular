@@ -2,19 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-h2{
+::-webkit-scrollbar {
+    width: 0.8em;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(79, 0, 128);
+}
+
+h2 {
     font-size: 3rem;
     text-align: center;
 }
 
 @media screen and (max-width: 475px) {
-    h2{
+    h2 {
         font-size: 2em;
     }
 }
 
 @media screen and (max-width: 375px) {
-    h2{
+    h2 {
         font-size: 1.5em;
     }
 }

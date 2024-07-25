@@ -9,7 +9,7 @@ import { Email } from '../interfaces/email';
 export class EmailService {
   constructor(private _http: HttpClient) {}
 
-  private baseUrl: string = 'http://localhost:3300';
+  private baseUrl: string = 'https://portfolio-express-kappa.vercel.app';
 
   sendEmail(data: Email): Observable<Email> {
     return this._http.post<Email>(`${this.baseUrl}/email/send-message`, data);
