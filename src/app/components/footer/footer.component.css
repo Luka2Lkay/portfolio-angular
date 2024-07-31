@@ -3,7 +3,8 @@
     color: #fff;
 }
 
-.fa-linkedin:hover, .fa-github:hover {
+.fa-linkedin:hover,
+.fa-github:hover {
     color: rgb(86, 154, 243)
 }
 
@@ -35,22 +36,6 @@ footer p {
 }
 
 @media only screen and (max-width: 1200px) {
-    .title {
-        position: relative;
-        top: 10em;
-        margin-right: 100em;
-        z-index: 16;
-    }
-
-    #slide {
-        margin-top: -8em;
-        margin-right: 100em;
-    }
-
-    .projects:hover {
-        margin-top: 1em;
-        margin-bottom: 1.5em;
-    }
 
     footer {
         grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
@@ -60,12 +45,6 @@ footer p {
 }
 
 @media only screen and (max-width: 1024px) {
-    .project__list {
-        grid-gap: 50px;
-        width: 50px;
-        margin-left: 50%;
-        grid-template-columns: 1fr;
-    }
 
     footer {
         padding-left: 180px;
@@ -79,68 +58,6 @@ footer p {
 }
 
 @media only screen and (max-width: 700px) {
-    #slide {
-        padding-bottom: 100px;
-        margin-top: 0;
-        margin-right: 0;
-    }
-
-    .project__list {
-        width: 100%;
-        margin-right: 3px;
-        margin-left: 10px;
-    }
-
-    .title {
-        position: absolute;
-        left: 10%;
-        top: 30%;
-        z-index: 2;
-    }
-
-    .title h2 {
-        font-size: 2.5em;
-    }
-
-    .typing {
-        font-size: 24px;
-    }
-
-    .nav__list {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 100;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        align-items: center;
-        transition: top 1s ease;
-        background-color: #000;
-        display: none;
-    }
-
-    .close__menu {
-        display: block;
-        position: absolute;
-        top: 0px;
-        right: 20px;
-    }
-
-    .open__menu {
-        display: block;
-    }
-
-    .icons {
-        display: inline-block;
-        padding: 5rem;
-    }
-
-    .projects:hover {
-        margin-top: 1em;
-        margin-bottom: 1.5em;
-    }
 
     footer {
         padding-left: 10px;
@@ -152,10 +69,6 @@ footer p {
 }
 
 @media only screen and (max-width: 550px) {
-    .project__list {
-        width: 50px;
-        margin-left: 50%;
-    }
 
     footer a:first-child {
         padding-left: 30px;
@@ -167,9 +80,6 @@ footer p {
 }
 
 @media only screen and (max-width: 425px) {
-    .project__list {
-        margin-left: 40%;
-    }
 
     footer {
         padding-left: 5px;
@@ -190,36 +100,7 @@ footer p {
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .projects {
-        width: 280px;
-        margin-left: 20px;
-    }
-
-    .typing {
-        font-size: 18px;
-    }
-
-    .projects:hover {
-        margin-top: 1.5em;
-        margin-bottom: 2em;
-    }
-
-    .project__links a:first-child {
-        margin-left: 23%;
-    }
-}
-
 @media only screen and (max-width: 300px) {
-    .projects {
-        width: 200px;
-    }
-
-    .project__list {
-        width: 100%;
-        margin-right: 0px;
-        margin-left: 10px;
-    }
 
     footer {
         padding-left: 2px;
